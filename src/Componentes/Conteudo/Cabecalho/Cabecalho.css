@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.texto-envolvido{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-envolvido *{
+    margin: 0;
+}
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
